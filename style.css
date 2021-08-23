@@ -13,3 +13,27 @@ p {
   text-indent: 100px;
   line-height: 5;
 } 
+
+#block-1 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+#block-2{
+  width: 50vw;
+  height: 50vh;
+  background-color: brown;
+}
+
+#block-3{
+  width: 50%;
+  height: 50%;
+  background-color: black;
+}
+
+#block-4{
+  width: 50%;
+  height: 50%;
+  background-color: black;
+}
