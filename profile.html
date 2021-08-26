@@ -1,15 +1,103 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Profile Page</title>
-    <link href="./style.css" rel="stylesheet">
-  </head>
 
-  <body class="profile-body">
-    <h1>Welcome to My Profile Page</h1>
+<head>
+  <title>Profile Page</title>
+  <style>
+    h1 {
+      color: red;
+    }
 
-    <a href="./basics.html">Go to Back</a>
-    <br />
-    <a href="./contact.html">Go to Contact Page</a>
-  </body>
+    .div-1 {
+      width: 200px;
+      height: 200px;
+      border: 3px solid red;
+      margin-left: 20px;
+      margin-right: 20px;
+      overflow: visible;
+    }
+
+    .div-2 {
+      width: 200px;
+      height: 200px;
+      border: 3px solid rgb(0, 4, 255);
+      margin-left: 20px;
+      margin-right: 20px;
+      overflow: hidden;
+    }
+
+    .div-3 {
+      width: 200px;
+      height: 200px;
+      border: 3px solid rgb(0, 255, 13);
+      margin-left: 20px;
+      margin-right: 20px;
+      overflow: scroll;
+    }
+
+    .div-4 {
+      width: 200px;
+      height: 200px;
+      border: 3px solid rgb(0, 0, 0);
+      margin-left: 20px;
+      margin-right: 20px;
+      overflow: auto;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: row;
+    }
+  </style>
+</head>
+
+<body class="profile-body">
+  <h1>Welcome to My Profile Page</h1>
+
+  <a href="./basics.html">Go to Back</a>
+  <br />
+  <a href="./contact.html">Go to Contact Page</a>
+  <div class="row">
+
+
+    <div class="div-1">
+      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking
+        at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
+        opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+        packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'
+        will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by
+        accident, sometimes on purpose (injected humour and the like).
+      </p>
+    </div>
+    <div class="div-2">
+      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking
+        at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
+        opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+        packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'
+        will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by
+        accident, sometimes on purpose (injected humour and the like).
+      </p>
+    </div>
+    <div class="div-3">
+      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking
+        at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
+        opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+        packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'
+        will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by
+        accident, sometimes on purpose (injected humour and the like).
+      </p>
+    </div>
+    <div class="div-4">
+      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking
+        at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
+        opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+        packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'
+        will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by
+        accident, sometimes on purpose (injected humour and the like).
+      </p>
+    </div>
+
+  </div>
+</body>
+
 </html>
