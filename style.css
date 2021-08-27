@@ -54,7 +54,10 @@ h1 {
 }
 
 .contact-body{
-  background-color: #ffeb3b;
+  /* background-color: #ffeb3b; */
+  background-image: url("./shinchu.jpg");
+  background-size: 1000px 600px;
+
 }
 
 .profile-body{
