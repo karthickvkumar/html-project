@@ -3,6 +3,8 @@
   border: 3px solid black;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .child-block-1{
@@ -15,4 +17,8 @@
 .text{
   color: white;
   font-size: 28px;
+}
+
+.align{
+  align-self: flex-end;
 }
