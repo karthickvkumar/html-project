@@ -76,6 +76,8 @@
 .desc-image-row-1{
   border: 3px solid red;
   height: 60%;
+  display: flex;
+  justify-content: center;
 }
 
 .desc-image-row-2{
@@ -86,4 +88,19 @@
 .desc-image-row-3{
   border: 3px solid blue;
   height: 14%;
+}
+
+.img-big{
+  width: 100%;
+  height: 100%;
+}
+
+.img-small{
+  width: 100%;
+  border-radius: 50px;
+}
+
+.image-center{
+  width: 50%;
+  height: 100%;
 }
