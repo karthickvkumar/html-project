@@ -63,3 +63,27 @@
   border: 3px solid red;
   height: 45%;
 }
+
+.desc-image{
+  border: 3px solid black;
+  width: 30%;
+}
+
+.space-even{
+  justify-content: space-evenly;
+}
+
+.desc-image-row-1{
+  border: 3px solid red;
+  height: 60%;
+}
+
+.desc-image-row-2{
+  border: 3px solid green;
+  height: 20%;
+}
+
+.desc-image-row-3{
+  border: 3px solid blue;
+  height: 14%;
+}
