@@ -68,6 +68,28 @@ var record_list = [
 ];
 console.log(record_list);
 
+// Operation in Array -> 4 Operation = Insert a new value, Read the Value, Edit the exiting value, Delete the value
+
+//push() - Insert a new value at the end of array record
+// array_variable_name.push(value_1, value_2, ... , value_n);
+total_marks.push(200,300,400,500);
+
+//unshift() -> Insert a new value at the start of array record
+total_marks.unshift(1000, 2000, 3000);
+
+//To Read value from Array
+// array_variable_name[index]
+total_marks[10];
+
+//To edit a value from Array
+// array_variable_name[index] = new value;
+total_marks[10] = 20000;
+
+//To delete an value 
+// array_variable_name.splice(index, deleteCount);
+total_marks.splice(4, 1);
+
+
 //Function -> Block of Code 
 //Syntax for Creating a Function (Function Definition)
 function function_name(){ 
@@ -78,3 +100,13 @@ function function_name(){
 
 //Syntax for Executing/Running the Function (Function Invocation)
 function_name();
+
+function onSubmitForm(){
+  var output = "The form has been submitted successfully";
+  console.log(output);
+};
+
+function onLogin(){
+  var result = "You have loggin to the application";
+  console.log(result);
+}
