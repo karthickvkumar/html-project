@@ -154,3 +154,9 @@ function check_voting_age(){
     // code block will execute if the condition is Falsy.
   }
 */
+/*
+1. Pass person age -> Number
+2. idenfity -> less then 18 -> The person is Minor
+2. idenfity -> greater then 18 and less than 60 -> The person is Major
+3. idenfity -> greater then 60 -> The person is Super Citizen
+*/
