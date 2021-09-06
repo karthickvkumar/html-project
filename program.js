@@ -92,14 +92,15 @@ total_marks.splice(4, 1);
 
 //Function -> Block of Code 
 //Syntax for Creating a Function (Function Definition)
-function function_name(){ 
+/*
+function function_name(vaiable1, vaiable2, vaiableN){ 
    // code block
 };
-
+*/
 // function_name = should be a Proper text value -> a-z, A-Z, 0-9, $, _
 
 //Syntax for Executing/Running the Function (Function Invocation)
-function_name();
+//function_name(value1, value2, value_n);
 
 function onSubmitForm(){
   var output = "The form has been submitted successfully";
@@ -110,3 +111,46 @@ function onLogin(){
   var result = "You have loggin to the application";
   console.log(result);
 }
+
+//Operations 
+/* 
+1. Arithmetic Operator -> +, -, *, /, %, ++, --
+2. Assignment Operator -> =, == 
+2. Comparision Operator -> <, <=, >, >=
+4. Logical Operator -> &&, ||, !
+*/
+
+//Syntax - if else conditon
+/*
+  if(conditon) {
+    // code block will execute if the condition is Truthy.
+  }
+  else{
+    // code block will execute if the condition is Falsy.
+  }
+*/
+
+function check_voting_age(){
+  var vaule = prompt("Enter your Age");
+  var age = parseInt(vaule);
+
+  if(age >= 18){
+    console.log('Eligible for Voting');
+  }
+  else{
+    console.log('Not Eligible for Voting');
+  }
+}
+
+//Syntax - Multipe if else conditon
+/*
+  if(conditon) {
+    // code block will execute if the condition is Truthy.
+  }
+  else if(condition){
+   // code block will execute if the condition is Truthy
+  }
+  else{
+    // code block will execute if the condition is Falsy.
+  }
+*/
