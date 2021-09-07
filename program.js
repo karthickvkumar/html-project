@@ -203,3 +203,33 @@ function print_even_numbers(){
     }
   }
 }
+
+/*Syntax - for in (loop) - Used to iterate Object properties
+for(var key in object_variable_name){
+ // coding
+}
+*/
+for(var key in student_information){
+  console.log("The key of object ",key);
+  console.log("The value of object ",student_information[key]);
+}
+
+/*Syntax - for of (loop) - Used to iterate list of Array
+for(var key of array_variable_name){
+ // coding
+}
+*/
+for(var value of student_List){
+  console.log(value);
+}
+
+/*Syntax - While (loop)
+while(condition){
+ // loop code block
+}
+*/
+var count = 1;
+while(count <= 10){
+  console.log("The count is ", count);
+  count++
+}
